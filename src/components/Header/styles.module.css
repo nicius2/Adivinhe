@@ -1,19 +1,32 @@
 .container {
     width: 100%;
-    display: center;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.container > img {
-    height: 3.75rem;
-}
-
-.container > header {
+.container header {
     width: 100%;
     display: flex;
     justify-content: space-between;
-    padding: 3.2rem 0;
+    padding: 3.25rem 0;
+}
+
+.container > img {
+    height: 3.69rem;
+
+}
+
+.container > header span strong {
+    color: #E8891C;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.container > header span {
+    font-size: 18px;
+    color: #9B9B9B;
+    font-weight: 400;
 }
 
 .container > header button {
@@ -30,12 +43,4 @@
     transition: scale 0.5s;
 }
 
-.container > header span {
-    font-size: 1.12rem;
-    color: #9B9B9B;
-}
 
-.container > header strong {
-    font-size: 1.37rem;
-    color: #E8891C;
-}

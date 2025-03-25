@@ -8,19 +8,22 @@ type Props = {
     onRestart: () => void
 }
 
-export default function Header({current, max, onRestart}: Props) {
+export default function Header({ current, max, onRestart }: Props) {
     return (
         <div className={styles.container}>
             <img src={logo} alt="logo" />
+
 
             <header>
                 <span>
                     <strong>{current}</strong> de {max} tentativas
                 </span>
                 <button type="button" onClick={onRestart}>
-                    <img src={restart} alt="Icone de restart" />
+                    <img src={restart} alt="recarregar" />
                 </button>
             </header>
         </div>
+
+
     )
 }
