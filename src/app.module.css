@@ -8,7 +8,7 @@
 }
 
 .container main {
-    /* max-width: 566px; */
+    max-width: 566px;
     background-color: #ffffff;
     padding: 4.5rem 2rem;
     border-radius: 1rem;
@@ -20,6 +20,7 @@
     justify-content: center;
     margin: 2.35rem 0;
     gap: 1rem;
+
 }
 
 .container main h5 {
