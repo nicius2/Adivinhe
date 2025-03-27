@@ -3,7 +3,7 @@ import styles from "./styles.module.css"
 
 
 type Props = {
-    tip: string
+    tip?: string
 }
 
 export default function Tip({ tip }: Props) {

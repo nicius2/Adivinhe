@@ -4,7 +4,7 @@ import restart from "../../assets/restart.svg"
 
 type Props = {
     current: number
-    max: number
+    max?: number
     onRestart: () => void
 }
 

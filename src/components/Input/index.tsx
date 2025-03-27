@@ -7,5 +7,5 @@ export default function Input({...rest}: Props) {
     type="text" 
     maxLength={1} 
     placeholder="?" 
-    className={styles.input}></input>
+    className={styles.input} {...rest}></input>
 }
