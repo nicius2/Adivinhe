@@ -1,12 +1,12 @@
 ![image](https://github.com/user-attachments/assets/363423c0-a48d-46a8-a950-541c5dbdfdf0)
 
-##🎯 Jogo de Adivinhação - React 
+## 🎯 Jogo de Adivinhação - React 
 
 📌 Sobre o Projeto
 
 Este é um jogo de adivinhação desenvolvido com React Hooks, onde o jogador deve adivinhar uma palavra relacionada a alguma linguagem de programação. O jogo exige habilidades de lógica, pois o jogador precisa inserir letras para completar a palavra antes que suas tentativas se esgotem.
 
-###🚀 Tecnologias Utilizadas
+### 🚀 Tecnologias Utilizadas
 
 -React.js
 
@@ -36,7 +36,7 @@ O jogador vence se acertar todas as letras antes de esgotar as tentativas.
 
 ✅ Lógica para controle de tentativas restantes.✅ Exibição das letras corretas conforme forem descobertas.✅ Lista de letras já utilizadas.✅ Dicas para ajudar o jogador.✅ Reinício do jogo ao final da rodada.
 
-###🏗 Como Rodar o Projeto
+### 🏗 Como Rodar o Projeto
 
 Clone este repositório:
 
